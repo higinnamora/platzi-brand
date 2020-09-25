@@ -62,29 +62,8 @@
 
 [class*="col-"] { /* selecciona los atributos class cuyos valores tenga una subcadena col-*/
     padding: 10px;
-    border: 1px solid black;
   }
-/* Product Cards */
-.product-title  {
-  font-size: 30px;
-}
-.product-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.product-card_img {
-  display: flex;
-  justify-content: center;
-}
-.product-card_description {
-  padding: 20px 0;
-}
-.product-card_description h3 {
-  font-size: 20px;
-}
-.product-card_description p {
-  font-size: 16px;
-}
+
 
 @media (max-width: 900px) {
     .row{
@@ -102,4 +81,10 @@
     .product-card_img {
       margin: 10px;
     }
+    
+    .col-4 {
+      margin-bottom: 30px;
+      margin-left: 20px;
+    }
+    
   }

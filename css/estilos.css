@@ -56,7 +56,14 @@ nav li a {
 nav li a:hover {
     color: white;
 
-} 
+}
+
+label {
+  font-size: 16px;
+  display: block;
+  margin: 12px 0;
+  font-weight: bold;
+}
 
 /* Main section */
 
@@ -154,7 +161,7 @@ nav li a:hover {
   color: white;
 }
 .main_btn:hover{
-  background-color: #845EC2;
+  background-color: #5727a5;
 }
 
 /* Beneficios */
@@ -196,6 +203,86 @@ h2.mention_title{
 .mention .text{
   padding: 10px;
 }
+
+/* Product Cards */
+.product-title  {
+  font-size: 30px;
+}
+.product-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.product-card_img {
+  display: flex;
+  justify-content: center;
+}
+.product-card_description {
+  padding: 20px 0;
+}
+.product-card_description h3 {
+  font-size: 20px;
+}
+.product-card_description p {
+  font-size: 16px;
+}
+
+/* Venta */
+
+.container_space {
+  margin: 80px
+}
+.modulo_pago {
+  background-color: var(--white-color);
+  box-shadow: var(0 0 5px #B0A8B9);
+  padding: 10px;
+}
+
+.modulo_pago_images {
+  max-width: 200px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+#tel {
+  margin-bottom: 18px;
+}
+.modulo_pago input {
+  width: 100%;
+  height: 32px;
+  border-radius: 2px;
+  border: 1px solid;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.col-4, .col-8 {
+  border: 1px solid black;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 6px 5px 5px rgba(0,0,0,0.55);
+-moz-box-shadow: 5px 6px 5px 5px rgba(0,0,0,0.55);
+box-shadow: 5px 6px 5px 5px rgba(0,0,0,0.55);
+}
+.col-8 {
+  margin-left: 20px;
+}
+
+.modulo_pago h3 {
+  font-size: 18px;
+  text-align: center;
+}
+.modulo_pago p {
+  font-size: 16px;
+  text-align: center;
+}
+.modulo_pago h4 {
+  font-size: 16px;
+  color: #5727a5;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* Venta */
 
 
 /* ------------------------------------------- Footer */
